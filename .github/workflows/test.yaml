@@ -1,4 +1,4 @@
-name: Test Using Mocha
+name: Test Using Mocha 2
 
 on: [push]
 

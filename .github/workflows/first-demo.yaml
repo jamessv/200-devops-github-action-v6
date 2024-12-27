@@ -1,4 +1,4 @@
-name: First Demo Action
+name: First Demo Action 1
 
 on:
   push:
