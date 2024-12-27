@@ -19,11 +19,11 @@ jobs:
           #password: ${{ secrets.DOCKER_PASSWORD }}
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-      #- name: Extract meta information
-      #  id: meta
-      #  uses: docker/metadata-action@v3
-      #  with:
-      #    images: jam100/200-ga
+      - name: Extract meta information
+        id: meta
+        uses: docker/metadata-action@v3
+        with:
+          images: jam100/getting-started-todo
       - name: Build & Push
         uses: docker/build-push-action@v3
         with:
