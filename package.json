@@ -1,0 +1,18 @@
+{
+  "name": "200-devops-github-action",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jamessv/200-devops-github-action.git",
+  "author": "jamessv <jamessrov@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha tests/*.js"
+  },
+  "dependencies": {
+    "chai": "^5.1.2",
+    "express": "^4.21.2",
+    "mocha": "^11.0.1",
+    "supertest": "^7.0.0"
+  }
+}
