@@ -2,7 +2,7 @@
   "name": "200-devops-github-action",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/jamessv/200-devops-github-action.git",
+  "repository": "https://github.com/jamessv/200-ga.git",
   "author": "jamessv <jamessrov@gmail.com>",
   "license": "MIT",
   "scripts": {
