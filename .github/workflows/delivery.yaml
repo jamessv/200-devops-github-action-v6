@@ -19,7 +19,7 @@ jobs:
         id: meta
         uses: docker/metadata-actions@v3
         with:
-          images: jam100/200-devops-github-action
+          images: jam100/200-ga
       - name: Build & Push
         uses: docker/build-push-actions@v3
         with:
