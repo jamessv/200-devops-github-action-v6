@@ -21,7 +21,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: hmnayemsl/github-action-fs
+          images: jam100/200-devops-github-action-v6
       - name: Build and push
         uses: docker/build-push-action@v3
         with:

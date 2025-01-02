@@ -23,7 +23,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: jam100/getting-started-todo
+          images: jam100/200-devops-github-action-v6
       - name: Build & Push
         uses: docker/build-push-action@v3
         with:
